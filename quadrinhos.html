@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel de Campo Mourão</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/icone.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" title="Home"
+            class="header-logo">
+                <img src="images/logo.png" alt="Marvel">
+            </a>
+            <a href="javascript:mostrarMenu()" title="Menu" class="header-menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <nav class="header-nav">
+                <ul>
+                    <li>
+                        <a href="index.html" title="Home">Home</a>
+                    </li>
+                    <li> 
+                        <a href="quadrinhos.html" title="Quadrinhos">Quadrinhos</a>
+                    </li>
+                    <li>
+                        <a href="noticias.html" title="Notícias">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" title="Contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section class="quadrinhos">
+    <div class="container">
+        <h2>Últimos Quadrinhos</h2>
+        <div class="flex" data-aos="fade-up">
+            <div class="col">
+                <img src="images/p1.jpg" alt="Quadrinho 1">
+                <p>
+                    <strong>Quadrinho #01 </strong><br> 2024
+                </p>
+                <p>
+                    <a href="noticia.html" title="Quadrinho 1" class="btn">
+                        <i class="fas fa-search"></i> Leia Mais
+                    </a>
+                </p>
+            </div>
+            <div class="col">
+                <img src="images/p2.jpg" alt="Quadrinho 2">
+                <p>
+                    <strong>Quadrinho #02 </strong><br> 2024
+                </p>
+                <p>
+                    <a href="noticia.html" title="Quadrinho 2" class="btn">
+                        <i class="fas fa-search"></i> Leia Mais
+                    </a>
+                </p>
+            </div>
+            <div class="col">
+                <img src="images/p3.jpg" alt="Quadrinho 3">
+                <p>
+                    <strong>Quadrinho #03 </strong><br> 2024
+                </p>
+                <p>
+                    <a href="noticia.html" title="Quadrinho 3" class="btn">
+                        <i class="fas fa-search"></i> Leia Mais
+                    </a>
+                </p>
+            </div>
+            <div class="col">
+                <img src="images/p4.jpg" alt="Quadrinho 4">
+                <p>
+                    <strong>Quadrinho #04 </strong><br> 2025
+                </p>
+                <p>
+                    <a href="noticia.html" title="Quadrinho 4" class="btn">
+                        <i class="fas fa-search"></i> Leia Mais
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer" data-aos="fade-down">
+    <div class="container">
+        <img src="images/icone.png" alt="Marvel">
+        <p>
+            Todos os direitos reservados - Desenvolvido por Eduardo Novacki dos Anjos
+        </p>
+        <hr>
+        <p>
+            <a href="https://facebook.com" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com" title="Youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </p>
+    </div>
+</footer>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        function mostrarMenu() {
+            $(".header-nav").toggle();
+        }
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
